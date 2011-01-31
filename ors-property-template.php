@@ -14,7 +14,7 @@ add_theme_support( ‘post-thumbnails’ );
 function ors_property_template_stylesheets() {
   wp_enqueue_style('property-template-style', '/wp-content/plugins/'.basename(dirname(__FILE__)).'/style.css', 'ors-property', null, 'all');
 }
-add_action('wp_print_styles', 'ors_property_template_stylesheets', 5);
+add_action('wp_print_styles', 'ors_property_template_stylesheets', 6);
 
 # Custom post type
 add_action( 'init', 'create_property_post_type' );

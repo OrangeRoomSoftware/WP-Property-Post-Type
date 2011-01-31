@@ -1,8 +1,8 @@
 .properties section{min-height:100px!important;}
 .properties header{font:bold 18pt Helvetica;border-bottom:solid 1px black;margin-bottom:5px;}
-.property td{padding-bottom:5px;}
-.property td.photo{margin:10px;}
-.property td.photo img{border:solid 1px black;}
-.property td.detail{margin:10px;font:normal 12pt arial;}
-.property td.downloads{font:normal 10pt arial;vertical-align:top;}
-.property td.downloads > div{display:block;color:white;background:black;text-align:center;padding:2px;}
+.properties table td{padding-bottom:5px;}
+.properties table td.photo{margin:10px;}
+.properties table td.photo img{border:solid 1px black;}
+.properties table td.detail{margin:10px;font:normal 12pt arial;}
+.properties table td.downloads{font:normal 10pt arial;vertical-align:top;}
+.properties table td.downloads > div{display:block;color:white;background:black;text-align:center;padding:2px;}
